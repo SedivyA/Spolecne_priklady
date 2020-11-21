@@ -359,7 +359,7 @@ namespace P01
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(129, 23);
             this.button32.TabIndex = 32;
-            this.button32.Text = "button32";
+            this.button32.Text = "Zašifruj";
             this.button32.UseVisualStyleBackColor = true;
             // 
             // panel1
