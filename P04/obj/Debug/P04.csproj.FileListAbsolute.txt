@@ -1,0 +1,9 @@
+C:\Users\Thomas\Downloads\Spolecne_priklady-master\Spolecne_priklady-master\P04\bin\Debug\P04.exe.config
+C:\Users\Thomas\Downloads\Spolecne_priklady-master\Spolecne_priklady-master\P04\bin\Debug\P04.exe
+C:\Users\Thomas\Downloads\Spolecne_priklady-master\Spolecne_priklady-master\P04\bin\Debug\P04.pdb
+C:\Users\Thomas\Downloads\Spolecne_priklady-master\Spolecne_priklady-master\P04\obj\Debug\P04.Form1.resources
+C:\Users\Thomas\Downloads\Spolecne_priklady-master\Spolecne_priklady-master\P04\obj\Debug\P04.Properties.Resources.resources
+C:\Users\Thomas\Downloads\Spolecne_priklady-master\Spolecne_priklady-master\P04\obj\Debug\P04.csproj.GenerateResource.cache
+C:\Users\Thomas\Downloads\Spolecne_priklady-master\Spolecne_priklady-master\P04\obj\Debug\P04.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\Downloads\Spolecne_priklady-master\Spolecne_priklady-master\P04\obj\Debug\P04.exe
+C:\Users\Thomas\Downloads\Spolecne_priklady-master\Spolecne_priklady-master\P04\obj\Debug\P04.pdb
