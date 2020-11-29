@@ -17,27 +17,23 @@ namespace P04
             InitializeComponent();
         }
 
-        private int Mocnina(int x, int ep)
-        {
-            int mocnina = 1;
-            for (int i = 0; i < ep; i++)
-            {
-                mocnina *= x;
-            }
-            return mocnina;
-        }
-
         private void Button1_Click(object sender, EventArgs e)
         {
-            int ep = Convert.ToInt32(comboBox1.Text);
-            foreach  (Control con in panel1.Controls)
+            label1.Text = comboBox1.SelectedItem.ToString();
+            int mocnica = Convert.ToInt32(comboBox1.SelectedItem);
+            int vysledek = 1;
+            int cislo;
+            foreach  (Control ctrl in panel1.Controls)
             {
-                if (con is TextBox)
+                if (ctrl is TextBox)
                 {
-                    int x = Convert.ToInt32((con as TextBox).Text);
-                    (con as TextBox).Text = Mocnina(x, ep).ToString();
+                    cislo = Convert.ToInt32(ctrl.Text);
+                    for (int i = 0; i <= mocnica; i++)
+                    {
+                        vysledek *= cislo;
+                    }
                 }
-                if (con is Label) (con as Label).Text = ep.ToString();
+                ctrl.Text = vysledek.ToString();
             }
 
         }
