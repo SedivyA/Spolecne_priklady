@@ -56,7 +56,7 @@ namespace P01
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text += (sender as Button).Text;
+            textBox1.Text = textBox1.Text + (sender as Button).Text;
         }
 
         
