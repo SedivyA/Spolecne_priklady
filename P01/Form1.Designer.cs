@@ -68,7 +68,8 @@ namespace P01
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(13, 13);
+            this.textBox1.Location = new System.Drawing.Point(12, 12);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(398, 20);
             this.textBox1.TabIndex = 0;
@@ -91,6 +92,7 @@ namespace P01
             this.button2.TabIndex = 2;
             this.button2.Text = "B";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -100,6 +102,7 @@ namespace P01
             this.button3.TabIndex = 3;
             this.button3.Text = "D";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button1_Click);
             // 
             // button4
             // 
@@ -109,6 +112,7 @@ namespace P01
             this.button4.TabIndex = 4;
             this.button4.Text = "C";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button1_Click);
             // 
             // button5
             // 
@@ -118,6 +122,7 @@ namespace P01
             this.button5.TabIndex = 5;
             this.button5.Text = "E";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button1_Click);
             // 
             // button6
             // 
@@ -127,6 +132,7 @@ namespace P01
             this.button6.TabIndex = 6;
             this.button6.Text = "F";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button1_Click);
             // 
             // button7
             // 
@@ -136,6 +142,7 @@ namespace P01
             this.button7.TabIndex = 7;
             this.button7.Text = "G";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button1_Click);
             // 
             // button8
             // 
@@ -145,6 +152,7 @@ namespace P01
             this.button8.TabIndex = 8;
             this.button8.Text = "H";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button1_Click);
             // 
             // button9
             // 
@@ -154,6 +162,7 @@ namespace P01
             this.button9.TabIndex = 9;
             this.button9.Text = "I";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button1_Click);
             // 
             // button10
             // 
@@ -163,6 +172,7 @@ namespace P01
             this.button10.TabIndex = 10;
             this.button10.Text = "J";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button1_Click);
             // 
             // button11
             // 
@@ -172,6 +182,7 @@ namespace P01
             this.button11.TabIndex = 11;
             this.button11.Text = "K";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button1_Click);
             // 
             // button12
             // 
@@ -181,6 +192,7 @@ namespace P01
             this.button12.TabIndex = 12;
             this.button12.Text = "L";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button1_Click);
             // 
             // button13
             // 
@@ -190,6 +202,7 @@ namespace P01
             this.button13.TabIndex = 13;
             this.button13.Text = "M";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button1_Click);
             // 
             // button14
             // 
@@ -199,6 +212,7 @@ namespace P01
             this.button14.TabIndex = 14;
             this.button14.Text = "N";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button1_Click);
             // 
             // button15
             // 
@@ -208,6 +222,7 @@ namespace P01
             this.button15.TabIndex = 15;
             this.button15.Text = "O";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button1_Click);
             // 
             // button16
             // 
@@ -217,6 +232,7 @@ namespace P01
             this.button16.TabIndex = 16;
             this.button16.Text = "P";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button1_Click);
             // 
             // button17
             // 
@@ -226,6 +242,7 @@ namespace P01
             this.button17.TabIndex = 17;
             this.button17.Text = "Q";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button1_Click);
             // 
             // button18
             // 
@@ -235,6 +252,7 @@ namespace P01
             this.button18.TabIndex = 18;
             this.button18.Text = "R";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button1_Click);
             // 
             // button19
             // 
@@ -244,6 +262,7 @@ namespace P01
             this.button19.TabIndex = 19;
             this.button19.Text = "S";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button1_Click);
             // 
             // button20
             // 
@@ -253,6 +272,7 @@ namespace P01
             this.button20.TabIndex = 20;
             this.button20.Text = "T";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button1_Click);
             // 
             // button21
             // 
@@ -262,6 +282,7 @@ namespace P01
             this.button21.TabIndex = 21;
             this.button21.Text = "U";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button1_Click);
             // 
             // button22
             // 
@@ -271,6 +292,7 @@ namespace P01
             this.button22.TabIndex = 22;
             this.button22.Text = "V";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button1_Click);
             // 
             // button23
             // 
@@ -280,6 +302,7 @@ namespace P01
             this.button23.TabIndex = 23;
             this.button23.Text = "W";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button1_Click);
             // 
             // button24
             // 
@@ -289,6 +312,7 @@ namespace P01
             this.button24.TabIndex = 24;
             this.button24.Text = "X";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button1_Click);
             // 
             // button25
             // 
@@ -298,6 +322,7 @@ namespace P01
             this.button25.TabIndex = 25;
             this.button25.Text = "Y";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button1_Click);
             // 
             // button26
             // 
@@ -307,6 +332,7 @@ namespace P01
             this.button26.TabIndex = 26;
             this.button26.Text = "Z";
             this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button1_Click);
             // 
             // button27
             // 
@@ -316,6 +342,7 @@ namespace P01
             this.button27.TabIndex = 27;
             this.button27.Text = " ";
             this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button1_Click);
             // 
             // button28
             // 
@@ -325,6 +352,7 @@ namespace P01
             this.button28.TabIndex = 28;
             this.button28.Text = "!";
             this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button1_Click);
             // 
             // button29
             // 
@@ -334,6 +362,7 @@ namespace P01
             this.button29.TabIndex = 29;
             this.button29.Text = "?";
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button1_Click);
             // 
             // button30
             // 
@@ -343,6 +372,7 @@ namespace P01
             this.button30.TabIndex = 30;
             this.button30.Text = ",";
             this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button1_Click);
             // 
             // button31
             // 
@@ -352,6 +382,7 @@ namespace P01
             this.button31.TabIndex = 31;
             this.button31.Text = ".";
             this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.button1_Click);
             // 
             // button32
             // 
@@ -361,6 +392,7 @@ namespace P01
             this.button32.TabIndex = 32;
             this.button32.Text = "Zašifruj";
             this.button32.UseVisualStyleBackColor = true;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
             // panel1
             // 
@@ -395,16 +427,16 @@ namespace P01
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(3, 48);
+            this.panel1.Location = new System.Drawing.Point(3, 38);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(425, 107);
+            this.panel1.Size = new System.Drawing.Size(425, 105);
             this.panel1.TabIndex = 33;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(443, 210);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button32);
             this.Controls.Add(this.textBox1);
